@@ -1,0 +1,1167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skamora | Boutique Officielle</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="pics/FavIconee.png" type="image/x-icon" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-X7112F9HT5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-X7112F9HT5");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <p>
+          🚚 Livraison GRATUITE à Fès • 25 DH dans les autres villes du Maroc
+        </p>
+      </div>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src="pics/Logo.png" alt="Skamora Logo" />
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <label for="menu-toggle" class="menu-button">
+          <span class="hamburger"></span>
+        </label>
+
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Boutique.html">Boutique</a></li>
+            <li><a href="À propos.html">À propos</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- KIDS -->
+
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="Products/Kids.jpeg" alt="Forever Kids" />
+          <div class="product-info">
+            <h3>Forever Kids</h3>
+            <p class="price">227 DH</p>
+            <p class="desc">
+              Multivitamines délicieuses pour soutenir la croissance, l'énergie
+              et l'immunité des enfants.
+            </p>
+            <button class="btn" onclick="openModal('kids')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ARCTIC SEA -->
+        <div class="product-card">
+          <img src="Products/Arctic sea.jpeg" alt="Forever Arctic Sea" />
+          <div class="product-info">
+            <h3>Forever Arctic Sea</h3>
+            <p class="price">516 DH</p>
+            <p class="desc">
+              Oméga 3 premium pour soutenir le cœur, le cerveau et l'équilibre
+              inflammatoire.
+            </p>
+            <button class="btn" onclick="openModal('arctic')">Voir</button>
+          </div>
+        </div>
+
+        <!-- GARLIC THYME -->
+        <div class="product-card">
+          <img src="Products/Garlic-Thyme.jpeg" alt="Garlic Thyme" />
+          <div class="product-info">
+            <h3>Garlic-Thyme</h3>
+            <p class="price">296 DH</p>
+            <p class="desc">
+              Alliance naturelle d'ail et de thym pour renforcer le système
+              immunitaire.
+            </p>
+            <button class="btn" onclick="openModal('garlic')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ABSORBENT C -->
+        <div class="product-card">
+          <img src="Products/Absorbent-C.jpeg" alt="Absorbent C" />
+          <div class="product-info">
+            <h3>Absorbent-C</h3>
+            <p class="price">287 DH</p>
+            <p class="desc">
+              Vitamine C à absorption rapide pour booster vos défenses
+              naturelles.
+            </p>
+            <button class="btn" onclick="openModal('absorbent')">Voir</button>
+          </div>
+        </div>
+
+        <!-- BEE POLLEN -->
+        <div class="product-card">
+          <img src="Products/Bee Pollen.jpeg" alt="Bee Pollen" />
+          <div class="product-info">
+            <h3>Bee Pollen</h3>
+            <p class="price">248 DH</p>
+            <p class="desc">
+              Super-aliment riche en nutriments pour vitalité et énergie
+              durable.
+            </p>
+            <button class="btn" onclick="openModal('pollen')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ACTIVE PRO -->
+        <div class="product-card">
+          <img src="Products/Active Pro-B.jpeg" alt="Active Pro" />
+          <div class="product-info">
+            <h3>Active Pro</h3>
+            <p class="price">483 DH</p>
+            <p class="desc">
+              Probiotiques puissants pour un microbiote équilibré et une
+              digestion saine.
+            </p>
+            <button class="btn" onclick="openModal('active')">Voir</button>
+          </div>
+        </div>
+
+        <!-- BRIGHT -->
+        <div class="product-card">
+          <img src="Products/Bright Toothgel.jpeg" alt="Forever Bright" />
+          <div class="product-info">
+            <h3>Forever Bright</h3>
+            <p class="price">125 DH</p>
+            <p class="desc">
+              Dentifrice à l'Aloe Vera pour des dents propres et une haleine
+              fraîche.
+            </p>
+            <button class="btn" onclick="openModal('bright')">Voir</button>
+          </div>
+        </div>
+
+        <!-- EVER SHIELD -->
+        <div class="product-card">
+          <img src="Products/Aloe ever-shield.jpeg" alt="Shield" />
+          <div class="product-info">
+            <h3>Ever-Shield</h3>
+            <p class="price">116 DH</p>
+            <p class="desc">Déodorant naturel longue durée, sans aluminium.</p>
+            <button class="btn" onclick="openModal('shield')">Voir</button>
+          </div>
+        </div>
+        <!-- FOREVER ALOE LIPS -->
+        <div class="product-card">
+          <img src="Products/aloe lips.webp" alt="Forever Aloe Lips" />
+          <div class="product-info">
+            <h3>Forever Aloe Lips</h3>
+            <p class="price">57 DH</p>
+            <p class="desc">
+              Baume à lèvres à l'Aloe Vera pour des lèvres hydratées, douces et
+              protégées.
+            </p>
+            <button class="btn" onclick="openModal('lips')">Voir</button>
+          </div>
+        </div>
+
+        <!-- AVOCADO SOAP -->
+        <div class="product-card">
+          <img src="Products/Avocado Soap.jpeg" alt="Avocado Soap" />
+          <div class="product-info">
+            <h3>Avocado Soap</h3>
+            <p class="price">80 DH</p>
+            <p class="desc">
+              Savon doux enrichi à l'avocat pour hydrater et protéger la peau.
+            </p>
+            <button class="btn" onclick="openModal('avocado')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE MSM GEL -->
+        <div class="product-card">
+          <img src="Products/Aloe MSM Gel.jpeg" alt="Aloe MSM Gel" />
+          <div class="product-info">
+            <h3>Aloe MSM Gel</h3>
+            <p class="price">376 DH</p>
+            <p class="desc">Gel apaisant pour muscles et articulations.</p>
+            <button class="btn" onclick="openModal('msm')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE VERA GELLY -->
+        <div class="product-card">
+          <img src="Products/Aloe Vera Gelly.jpeg" alt="Aloe Vera Gelly" />
+          <div class="product-info">
+            <h3>Aloe Vera Gelly</h3>
+            <p class="price">242 DH</p>
+            <p class="desc">
+              Gel multi-usage pour apaiser, hydrater et réparer la peau.
+            </p>
+            <button class="btn" onclick="openModal('gelly')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE JOJOBA SHAMPOO -->
+        <div class="product-card">
+          <img
+            src="Products/Aloe JoJoba shampoo.jpeg"
+            alt="Aloe Jojoba Shampoo"
+          />
+          <div class="product-info">
+            <h3>Aloe-JoJoBa Shampoo</h3>
+            <p class="price">287 DH</p>
+            <p class="desc">
+              Nettoyage doux et hydratation pour cheveux brillants et forts.
+            </p>
+            <button class="btn" onclick="openModal('shampoo')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE JOJOBA CONDITIONER -->
+        <div class="product-card">
+          <img
+            src="Products/Aloe JoJoba conditionner.jpeg"
+            alt="Aloe Jojoba Conditioner"
+          />
+          <div class="product-info">
+            <h3>Aloe-JoJoBa Conditioner</h3>
+            <p class="price">307 DH</p>
+            <p class="desc">
+              Soin nourrissant pour cheveux soyeux et faciles à coiffer.
+            </p>
+            <button class="btn" onclick="openModal('conditioner')">Voir</button>
+          </div>
+        </div>
+        <!-- PACK JOJOBA -->
+        <div class="product-card">
+          <img src="Products/pack JoJoba.jpeg" alt="Pack Jojoba" />
+          <div class="product-info">
+            <h3>Pack Jojoba</h3>
+            <p class="price">560 DH</p>
+            <p class="desc">
+              Le duo shampoing + après-shampoing jojoba pour des cheveux
+              sublimés.
+            </p>
+            <button class="btn" onclick="openModal('packjojoba')">Voir</button>
+          </div>
+        </div>
+        <!-- ALOE MOISTURIZING LOTION -->
+        <div class="product-card">
+          <img
+            src="Products/Aloe moisturizing lotion.jpeg"
+            alt="Aloe Moisturizing Lotion"
+          />
+          <div class="product-info">
+            <h3>Aloe Moisturizing Lotion</h3>
+            <p class="price">242 DH</p>
+            <p class="desc">
+              Lotion hydratante quotidienne pour une peau douce et protégée.
+            </p>
+            <button class="btn" onclick="openModal('moisturizing')">
+              Voir
+            </button>
+          </div>
+        </div>
+
+        <!-- ALOE HEAT LOTION -->
+        <div class="product-card">
+          <img src="Products/Aloe Heat lotion.jpeg" alt="Aloe Heat Lotion" />
+          <div class="product-info">
+            <h3>Aloe Heat Lotion</h3>
+            <p class="price">242 DH</p>
+            <p class="desc">
+              Lotion chauffante idéale pour détendre les muscles.
+            </p>
+            <button class="btn" onclick="openModal('heat')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE VERA GEL -->
+        <div class="product-card">
+          <img src="Products/Aloe vera gel.jpeg" alt="Aloe Vera Gel" />
+          <div class="product-info">
+            <h3>Aloe Vera Gel</h3>
+            <p class="price">425 DH</p>
+            <p class="desc">
+              Boisson pure d'Aloe Vera pour digestion et détox naturelle.
+            </p>
+            <button class="btn" onclick="openModal('aloe')">Voir</button>
+          </div>
+        </div>
+        <!-- ALOE VERA GEL PEACHES -->
+        <div class="product-card">
+          <img
+            src="Products/aloe vera peaches.png"
+            alt="Aloe Vera Gel Peaches"
+          />
+          <div class="product-info">
+            <h3>Aloe Vera Gel Peaches</h3>
+            <p class="price">425 DH</p>
+            <p class="desc">
+              Boisson Aloe Vera au goût pêche pour une santé délicieuse au
+              quotidien.
+            </p>
+            <button class="btn" onclick="openModal('peaches')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE VERA GEL NECTAR -->
+        <div class="product-card">
+          <img
+            src="Products/Aloe berry nactar.jpeg"
+            alt="Aloe Vera Gel Nectar"
+          />
+          <div class="product-info">
+            <h3>Aloe Vera Gel Nectar</h3>
+            <p class="price">425 DH</p>
+            <p class="desc">
+              Aloe enrichi au miel pour digestion confortable et énergie.
+            </p>
+            <button class="btn" onclick="openModal('nectar')">Voir</button>
+          </div>
+        </div>
+
+        <!-- HERBAL TEA -->
+        <div class="product-card">
+          <img src="Products/Herbal tea.jpg" alt="Herbal Tea" />
+          <div class="product-info">
+            <h3>Herbal Tea</h3>
+            <p class="price">296 DH</p>
+            <p class="desc">
+              Tisane naturelle aux plantes pour détendre, purifier et
+              revitaliser l'organisme.
+            </p>
+            <button class="btn" onclick="openModal('herbaltea')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE COOLING LOTION -->
+        <div class="product-card">
+          <img
+            src="Products/Aloe cooling lotion.jpg"
+            alt="Aloe Cooling Lotion"
+          />
+          <div class="product-info">
+            <h3>Aloe Cooling Lotion</h3>
+            <p class="price">190 DH</p>
+            <p class="desc">
+              Lotion fraîcheur à l'Aloe Vera pour soulager et rafraîchir la peau
+              instantanément.
+            </p>
+            <button class="btn" onclick="openModal('cooling')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE PROPOLIS CREME -->
+        <div class="product-card">
+          <img
+            src="Products/Aloe propolis creme.webp"
+            alt="Aloe Propolis Crème"
+          />
+          <div class="product-info">
+            <h3>Aloe Propolis Crème</h3>
+            <p class="price">322 DH</p>
+            <p class="desc">
+              Crème réparatrice à la propolis et à l'Aloe Vera pour une peau
+              nette et apaisée.
+            </p>
+            <button class="btn" onclick="openModal('propolis')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE LIQUID SOAP -->
+        <div class="product-card">
+          <img src="Products/Aloe liquid soap.png" alt="Aloe Liquid Soap" />
+          <div class="product-info">
+            <h3>Aloe Liquid Soap</h3>
+            <p class="price">255 DH</p>
+            <p class="desc">
+              Savon liquide doux à l'Aloe Vera pour un nettoyage quotidien sans
+              agresser la peau.
+            </p>
+            <button class="btn" onclick="openModal('liquidsoap')">Voir</button>
+          </div>
+        </div>
+
+        <!-- GENTLEMAN'S PRIDE -->
+        <div class="product-card">
+          <img
+            src="Products/Aloe gentle man's pride.webp"
+            alt="Gentleman's Pride"
+          />
+          <div class="product-info">
+            <h3>Gentleman's Pride®</h3>
+            <p class="price">242 DH</p>
+            <p class="desc">
+              Soin après-rasage à l'Aloe Vera pour une peau masculine douce et
+              protégée.
+            </p>
+            <button class="btn" onclick="openModal('gentleman')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE FIRST -->
+        <div class="product-card">
+          <img src="Products/aloe first.avif" alt="Aloe First" />
+          <div class="product-info">
+            <h3>Aloe First</h3>
+            <p class="price">322 DH</p>
+            <p class="desc">
+              Spray apaisant à l'Aloe Vera — le premier soin pour toute
+              irritation ou brûlure légère.
+            </p>
+            <button class="btn" onclick="openModal('aloefirst')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE SUNSCREEN -->
+        <div class="product-card">
+          <img src="Products/Aloe Sunscreen.jpg" alt="Aloe Sunscreen" />
+          <div class="product-info">
+            <h3>Aloe Sunscreen</h3>
+            <p class="price">273 DH</p>
+            <p class="desc">
+              Protection solaire naturelle à l'Aloe Vera pour protéger et
+              nourrir la peau au soleil.
+            </p>
+            <button class="btn" onclick="openModal('sunscreen')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE BODY WASH -->
+        <div class="product-card">
+          <img src="Products/Aloe Body Wash.jpg" alt="Aloe Body Wash" />
+          <div class="product-info">
+            <h3>Aloe Body Wash</h3>
+            <p class="price">296 DH</p>
+            <p class="desc">
+              Gel douche enrichi à l'Aloe Vera pour une peau propre, douce et
+              hydratée.
+            </p>
+            <button class="btn" onclick="openModal('bodywash')">Voir</button>
+          </div>
+        </div>
+
+        <!-- ALOE ACTIVATOR -->
+        <div class="product-card">
+          <img src="Products/Aloe Activator.jpg" alt="Aloe Activator" />
+          <div class="product-info">
+            <h3>Aloe Activator</h3>
+            <p class="price">209 DH</p>
+            <p class="desc">
+              Solution liquide d'Aloe Vera pur pour activer, hydrater et
+              régénérer la peau en profondeur.
+            </p>
+            <button class="btn" onclick="openModal('activator')">Voir</button>
+          </div>
+        </div>
+
+        <!-- BALANCING TONER -->
+        <div class="product-card">
+          <img src="Products/Balancing Toner.jpg" alt="Balancing Toner" />
+          <div class="product-info">
+            <h3>Balancing Toner</h3>
+            <p class="price">286 DH</p>
+            <p class="desc">
+              Tonique équilibrant pour resserrer les pores et préparer la peau
+              au soin.
+            </p>
+            <button class="btn" onclick="openModal('toner')">Voir</button>
+          </div>
+        </div>
+
+        <!-- FOREVER LITE ULTRA -->
+        <div class="product-card">
+          <img src="Products/Forever Lite Ultra.jpg" alt="Forever Lite Ultra" />
+          <div class="product-info">
+            <h3>Forever Lite Ultra</h3>
+            <p class="price">344 DH</p>
+            <p class="desc">
+              Shake protéiné nutritif pour contrôler le poids et maintenir une
+              énergie optimale.
+            </p>
+            <button class="btn" onclick="openModal('litultra')">Voir</button>
+          </div>
+        </div>
+
+        <!-- FOREVER THERM -->
+        <div class="product-card">
+          <img src="Products/Forever Therm.jpg" alt="Forever Therm" />
+          <div class="product-info">
+            <h3>Forever Therm</h3>
+            <p class="price">488 DH</p>
+            <p class="desc">
+              Complément thermogénique naturel pour booster le métabolisme et
+              brûler les graisses.
+            </p>
+            <button class="btn" onclick="openModal('therm')">Voir</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Colonne 1 : Logo + Description -->
+        <div class="footer-brand">
+          <img src="pics/Logo.png" alt="Skamora Logo" class="footer-logo" />
+          <p>
+            Votre destination pour des produits de skincare naturels et des
+            compléments de qualité supérieure.
+          </p>
+        </div>
+
+        <!-- Colonne 2 : Liens utiles -->
+        <div class="footer-links">
+          <h4>Liens Rapides</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Boutique.html">Boutique</a></li>
+            <li><a href="À propos.html">À propos</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne 3 : Contact -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📞 +212 611-837199</p>
+          <p>📍 Maroc</p>
+        </div>
+
+        <!-- Colonne 4 : Réseaux sociaux -->
+        <div class="footer-social">
+          <h4>Suivez-nous</h4>
+
+          <div class="social-icons">
+            <a
+              href="https://www.instagram.com/skamora__official/"
+              target="_blank"
+              class="social-icon"
+            >
+              <!-- Instagram -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17" cy="7" r="1" />
+              </svg>
+            </a>
+
+            <a
+              href="https://web.facebook.com/people/Skamora-official/61587936001230/?rdid=SbFenZZZxvF7MT45&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F14WUQVzGeD5%2F%3F_rdc%3D1%26_rdr"
+              target="_blank"
+              class="social-icon"
+            >
+              <!-- Facebook -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M15 3H12C9.8 3 8 4.8 8 7V10H5V14H8V21H12V14H15L16 10H12V7C12 6.4 12.4 6 13 6H15V3Z"
+                />
+              </svg>
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@skamora_official"
+              target="_blank"
+              class="social-icon"
+            >
+              <!-- TikTok -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M14 3V14.5C14 16 13 17 11.5 17C10 17 9 16 9 14.5C9 13 10 12 11.5 12C12 12 12.5 12.1 13 12.3V9.5C12.5 9.3 12 9.2 11.5 9.2C8.5 9.2 6 11.7 6 14.7C6 17.7 8.5 20 11.5 20C14.5 20 17 17.7 17 14.7V7C18 7.7 19.2 8.1 20.5 8.1V5.1C18.2 5.1 16.2 4.1 14 3Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Skamora. Tous droits réservés.</p>
+      </div>
+    </footer>
+    <!-- MODAL UNIQUE -->
+    <div id="productModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modalData"></div>
+      </div>
+    </div>
+
+    <script>
+      function openModal(product) {
+        const data = {
+          kids: `
+      <div class="modal-layout">
+        <img src="Products/Kids.jpeg" alt="Forever Kids" />
+        <div class="modal-text">
+          <h2>🌟 Forever Kids</h2>
+          <p class="modal-tagline">Offrez à vos enfants le meilleur départ dans la vie — chaque jour, naturellement.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Vitamines A, C, D, E, B6, B12, calcium, zinc, extraits de fruits naturels (cerise, pomme, ananas).</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Soutient la croissance osseuse et musculaire, booste le système immunitaire, améliore la concentration à l'école et apporte une énergie saine tout au long de la journée. Formulé sans colorants artificiels ni arômes chimiques.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>2 comprimés à croquer par jour, de préférence le matin avec le petit-déjeuner. Les enfants adorent leur goût fruité !</p>
+          <p><strong>Parce que votre enfant mérite ce qu'il y a de mieux — Forever Kids, le complément qui grandit avec eux.</strong></p>
+          <a href="Contact.html?produit=Forever%20Kids%20-%20227%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          arctic: `
+      <div class="modal-layout">
+        <img src="Products/Arctic sea.jpeg" alt="Forever Arctic Sea" />
+        <div class="modal-text">
+          <h2>🌊 Forever Arctic Sea</h2>
+          <p class="modal-tagline">Prenez soin de votre cœur et de votre cerveau avec les omégas les plus purs du monde.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Huile de poisson sauvage (EPA & DHA), huile de calmar, vitamine E naturelle.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Protège le système cardiovasculaire, améliore la mémoire et la concentration, réduit l'inflammation chronique, soutient la santé des articulations et régule le cholestérol naturellement.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>2 capsules par jour pendant les repas. Résultats visibles après 4 à 6 semaines de prise régulière.</p>
+          <p><strong>Votre santé ne peut pas attendre — investissez dès aujourd'hui avec Forever Arctic Sea.</strong></p>
+          <a href="Contact.html?produit=Forever%20Arctic%20Sea%20-%20516%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          garlic: `
+      <div class="modal-layout">
+        <img src="Products/Garlic-Thyme.jpeg" alt="Garlic Thyme" />
+        <div class="modal-text">
+          <h2>🧄 Garlic-Thyme</h2>
+          <p class="modal-tagline">La force de la nature en une seule capsule — votre bouclier quotidien contre les infections.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Extrait d'ail concentré (sans odeur), huile de thym, soja, gélatine végétale.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Renforce les défenses immunitaires, possède des propriétés antibactériennes et antivirales naturelles, soutient la santé cardiovasculaire et aide à maintenir une tension artérielle saine.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>1 à 2 capsules par jour avec un repas. Sans odeur d'ail — discret et efficace !</p>
+          <p><strong>Ne laissez plus les saisons changer votre santé — Garlic-Thyme, votre défense naturelle au quotidien.</strong></p>
+          <a href="Contact.html?produit=Garlic-Thyme%20-%20296%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          absorbent: `
+      <div class="modal-layout">
+        <img src="Products/Absorbent-C.jpeg" alt="Absorbent C" />
+        <div class="modal-text">
+          <h2>🍊 Absorbent-C</h2>
+          <p class="modal-tagline">La vitamine C que votre corps absorbe vraiment — pas comme les autres.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Vitamine C (ascorbate de calcium), oat bran (son d'avoine) pour une absorption optimale.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Booste l'immunité en profondeur, favorise la production de collagène pour une peau jeune et ferme, combat la fatigue chronique, protège les cellules contre le stress oxydatif.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>1 à 2 comprimés par jour, à avaler avec un grand verre d'eau pendant les repas.</p>
+          <p><strong>Une peau éclatante, une énergie au top, une immunité de fer — tout ça avec une seule capsule d'Absorbent-C.</strong></p>
+          <a href="Contact.html?produit=Absorbent-C%20-%20287%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          pollen: `
+      <div class="modal-layout">
+        <img src="Products/Bee Pollen.jpeg" alt="Bee Pollen" />
+        <div class="modal-text">
+          <h2>🐝 Bee Pollen</h2>
+          <p class="modal-tagline">Le super-aliment de la ruche — énergie, vitalité et nutrition complète en un seul produit.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Pollen d'abeille pur, protéines, acides aminés essentiels, vitamines B, C, E, minéraux et enzymes naturelles.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Augmente l'énergie et l'endurance physique, soutient le système hormonal, améliore la fertilité, renforce les défenses naturelles et favorise la récupération après l'effort.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>1 comprimé par jour le matin à jeun ou avec le petit-déjeuner pour profiter de toute sa vitalité.</p>
+          <p><strong>Ce que la nature a de plus complet — Bee Pollen, l'énergie pure de la ruche pour vous.</strong></p>
+          <a href="Contact.html?produit=Bee%20Pollen%20-%20248%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          active: `
+      <div class="modal-layout">
+        <img src="Products/Active Pro-B.jpeg" alt="Active Pro" />
+        <div class="modal-text">
+          <h2>🦠 Active Pro-B</h2>
+          <p class="modal-tagline">Un microbiote équilibré, c'est une vie équilibrée — commencez par là.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>6 souches de probiotiques actives (Lactobacillus, Bifidobacterium), prébiotiques naturels, fructo-oligosaccharides (FOS).</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Améliore la digestion, réduit les ballonnements, renforce l'immunité intestinale, favorise l'absorption des nutriments et aide à lutter contre les infections digestives.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>1 capsule par jour le matin à jeun avec un verre d'eau. À conserver au frais.</p>
+          <p><strong>Votre ventre détermine votre bien-être — Active Pro-B remet tout en ordre, naturellement.</strong></p>
+          <a href="Contact.html?produit=Active%20Pro-B%20-%20483%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          bright: `
+      <div class="modal-layout">
+        <img src="Products/Bright Toothgel.jpeg" alt="Forever Bright" />
+        <div class="modal-text">
+          <h2>😁 Forever Bright Toothgel</h2>
+          <p class="modal-tagline">Un sourire éclatant, une haleine fraîche — sans produits chimiques agressifs.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Gel d'Aloe Vera stabilisé, propolis naturelle, menthe douce, agents nettoyants doux.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Nettoie en profondeur sans abîmer l'émail, protège et renforce les gencives, élimine les bactéries buccales, laisse une haleine fraîche toute la journée. Sans fluor, sans SLS — sûr pour toute la famille.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Matin et soir, brossez pendant 2 minutes minimum. Peut être utilisé par les enfants à partir de 6 ans.</p>
+          <p><strong>Votre sourire est votre première impression — faites-le briller avec Forever Bright.</strong></p>
+          <a href="Contact.html?produit=Forever%20Bright%20Toothgel%20-%20125%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          shield: `
+      <div class="modal-layout">
+        <img src="Products/Aloe ever-shield.jpeg" alt="Ever Shield" />
+        <div class="modal-text">
+          <h2>🛡️ Aloe Ever-Shield</h2>
+          <p class="modal-tagline">Protégez-vous naturellement, toute la journée — sans compromis sur votre santé.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera pur, agents naturels déodorisants, sans aluminium, sans alcool, sans parabènes.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Neutralise les mauvaises odeurs jusqu'à 24h, apaise la peau après l'épilation ou le rasage, respecte la flore cutanée naturelle. Parfait pour les peaux sensibles.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer sur les aisselles propres et sèches chaque matin. Laisser sécher quelques secondes avant de s'habiller.</p>
+          <p><strong>Fini les compromis entre efficacité et naturalité — Ever-Shield vous protège sans vous exposer.</strong></p>
+          <a href="Contact.html?produit=Ever-Shield%20D%C3%A9odorant%20-%20116%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          avocado: `
+      <div class="modal-layout">
+        <img src="Products/Avocado Soap.jpeg" alt="Avocado Soap" />
+        <div class="modal-text">
+          <h2>🥑 Avocado Soap</h2>
+          <p class="modal-tagline">Un savon qui chouchoute votre peau à chaque lavage — parce que votre peau le vaut.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Huile d'avocat extra-vierge, Aloe Vera, glycérine végétale, beurre de karité.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Nettoie en douceur, hydrate en profondeur, nourrit la peau sèche ou abîmée, lutte contre le vieillissement cutané. Convient à tous les types de peau, même les plus sensibles.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Utilisez quotidiennement sous la douche ou au lavabo. Rincez à l'eau tiède et profitez d'une peau douce comme du velours.</p>
+          <p><strong>Une douche ordinaire peut devenir un soin — avec l'Avocado Soap, prenez soin de vous à chaque fois.</strong></p>
+          <a href="Contact.html?produit=Avocado%20Soap%20-%2080%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          msm: `
+      <div class="modal-layout">
+        <img src="Products/Aloe MSM Gel.jpeg" alt="Aloe MSM Gel" />
+        <div class="modal-text">
+          <h2>💪 Aloe MSM Gel</h2>
+          <p class="modal-tagline">Dites adieu aux douleurs musculaires et articulaires — le soulagement naturel est là.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera stabilisé, MSM (méthylsulfonylméthane), camphre naturel, agents pénétrants.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Soulage rapidement les douleurs musculaires et articulaires, réduit l'inflammation, améliore la mobilité et la souplesse, idéal pour les sportifs et les personnes souffrant d'arthrite.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer une quantité généreuse sur la zone douloureuse et masser en mouvements circulaires. 2 à 3 fois par jour selon les besoins.</p>
+          <p><strong>Votre corps travaille dur — récompensez-le avec l'Aloe MSM Gel, le soin réparateur qu'il mérite.</strong></p>
+          <a href="Contact.html?produit=Aloe%20MSM%20Gel%20-%20376%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          gelly: `
+      <div class="modal-layout">
+        <img src="Products/Aloe Vera Gelly.jpeg" alt="Aloe Vera Gelly" />
+        <div class="modal-text">
+          <h2>🌱 Aloe Vera Gelly</h2>
+          <p class="modal-tagline">Le soin multi-usage que toute la famille devrait avoir dans sa salle de bain.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera pur à haute concentration, agents hydratants naturels, extrait de camomille.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Apaise les irritations, coups de soleil et piqûres d'insectes, hydrate intensément la peau sèche, accélère la cicatrisation, idéal après l'épilation ou le rasage.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer généreusement sur la zone concernée 2 à 3 fois par jour. Peut être utilisé sur le visage, le corps et les cheveux.</p>
+          <p><strong>Un seul produit, mille utilisations — l'Aloe Vera Gelly, l'allié beauté incontournable.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Vera%20Gelly%20-%20242%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          shampoo: `
+      <div class="modal-layout">
+        <img src="Products/Aloe JoJoba shampoo.jpeg" alt="Aloe Jojoba Shampoo" />
+        <div class="modal-text">
+          <h2>💇 Aloe-JoJoBa Shampoo</h2>
+          <p class="modal-tagline">Des cheveux brillants, forts et sains — parce que la beauté commence par la racine.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera stabilisé, huile de jojoba, protéines de soie, panthénol (pro-vitamine B5).</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Nettoie en douceur sans dessécher, hydrate le cuir chevelu, réduit les frisottis, fortifie les cheveux fragiles et stimule la pousse.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer sur cheveux mouillés, masser le cuir chevelu et rincer abondamment. 2 à 3 fois par semaine. Combiner avec le Conditioner JoJoBa pour un résultat optimal.</p>
+          <p><strong>Vos cheveux méritent le meilleur — offrez-leur la douceur naturelle de l'Aloe et du Jojoba.</strong></p>
+          <a href="Contact.html?produit=Aloe-JoJoBa%20Shampoo%20-%20287%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          conditioner: `
+      <div class="modal-layout">
+        <img src="Products/Aloe JoJoba conditionner.jpeg" alt="Aloe Jojoba Conditioner" />
+        <div class="modal-text">
+          <h2>✨ Aloe-JoJoBa Conditioner</h2>
+          <p class="modal-tagline">La finition parfaite pour des cheveux soyeux, disciplinés et plein de vie.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera, huile de jojoba, beurre de karité, kératine végétale, extraits botaniques nourrissants.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Démêle facilement, scelle l'hydratation dans le cheveu, réduit les pointes abîmées, apporte brillance et légèreté. Convient à tous types de cheveux.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Après le shampoing, appliquer sur les longueurs et pointes, laisser poser 2 à 3 minutes puis rincer. Utiliser régulièrement pour des résultats durables.</p>
+          <p><strong>Des cheveux de rêve, ça s'entretient — avec l'Aloe-JoJoBa Conditioner, chaque jour est un bon jour pour vos cheveux.</strong></p>
+          <a href="Contact.html?produit=Aloe-JoJoBa%20Conditioner%20-%20307%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          moisturizing: `
+      <div class="modal-layout">
+        <img src="Products/Aloe Moisturizing lotion.jpeg" alt="Aloe Moisturizing Lotion" />
+        <div class="modal-text">
+          <h2>🌸 Aloe Moisturizing Lotion</h2>
+          <p class="modal-tagline">Une peau douce, lumineuse et hydratée du matin au soir — enfin une lotion qui tient sa promesse.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera concentré, huiles végétales précieuses, vitamine E, acide hyaluronique naturel.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Hydratation longue durée jusqu'à 24h, peau plus douce et plus élastique dès la première application, atténue les ridules, nourrit les peaux sèches et sensibles.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer matin et soir sur peau propre et légèrement humide. Masser en mouvements circulaires jusqu'à absorption complète.</p>
+          <p><strong>Votre peau parle — écoutez-la et offrez-lui l'hydratation qu'elle réclame avec cette lotion exceptionnelle.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Moisturizing%20Lotion%20-%20242%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          heat: `
+      <div class="modal-layout">
+        <img src="Products/Aloe Heat lotion.jpeg" alt="Aloe Heat Lotion" />
+        <div class="modal-text">
+          <h2>🔥 Aloe Heat Lotion</h2>
+          <p class="modal-tagline">La chaleur qui libère vos muscles — récupérez plus vite, bougez mieux.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera, huile de menthe poivrée, camphre naturel, extraits végétaux chauffants.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Soulage les tensions musculaires et les courbatures, améliore la circulation locale, effet chauffant progressif et durable, idéal avant et après le sport ou pour les douleurs du dos.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Masser la zone douloureuse avec une petite quantité de lotion jusqu'à absorption. Répéter 2 à 3 fois par jour. Éviter le contact avec les yeux.</p>
+          <p><strong>Sportif ou non, vos muscles ont le droit de se détendre — l'Aloe Heat Lotion est là pour ça.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Heat%20Lotion%20-%20242%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          aloe: `
+      <div class="modal-layout">
+        <img src="Products/Aloe vera gel.jpeg" alt="Aloe Vera Gel" />
+        <div class="modal-text">
+          <h2>🌿 Aloe Vera Gel</h2>
+          <p class="modal-tagline">La boisson santé numéro 1 dans le monde — pure, naturelle, transformatrice.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Gel d'Aloe Vera stabilisé à 99,7%, vitamine C, citrate de sodium — sans conservateurs artificiels.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Améliore la digestion et réduit les ballonnements, détoxifie l'organisme en profondeur, renforce l'immunité, booste l'énergie et améliore la qualité de la peau de l'intérieur.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>60ml chaque matin à jeun, idéalement 20 minutes avant le petit-déjeuner. Secouez bien avant utilisation. Résultats visibles dès 3 à 4 semaines.</p>
+          <p><strong>Des milliers de personnes dans le monde ont transformé leur santé avec l'Aloe Vera Gel — et vous, vous attendez quoi ?</strong></p>
+          <a href="Contact.html?produit=Aloe%20Vera%20Gel%20-%20425%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          nectar: `
+      <div class="modal-layout">
+        <img src="Products/Aloe berry nactar.jpeg" alt="Aloe Vera Gel Nectar" />
+        <div class="modal-text">
+          <h2>🍇 Aloe Vera Gel Nectar</h2>
+          <p class="modal-tagline">Tout le pouvoir de l'Aloe Vera avec un délicieux goût fruité — santé et plaisir réunis.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Gel d'Aloe Vera pur, jus de cranberry, jus de pomme naturel, vitamine C — sans sucres ajoutés.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Mêmes bénéfices que l'Aloe Vera Gel pur, avec en plus les antioxydants du cranberry qui protègent les voies urinaires, soutiennent la santé féminine et combattent le vieillissement cellulaire.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>60ml chaque matin à jeun. Idéal pour ceux qui trouvent le goût de l'Aloe pur trop fort — ce nectar est doux et agréable pour toute la famille.</p>
+          <p><strong>Prendre soin de sa santé n'a jamais été aussi délicieux — craquez dès la première gorgée.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Vera%20Gel%20Nectar%20-%20425%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+          packjojoba: `
+      <div class="modal-layout">
+        <img src="Products/pack JoJoba.jpeg" alt="Pack Jojoba" />
+        <div class="modal-text">
+          <h2>🌿 Pack Jojoba</h2>
+          <p class="modal-tagline">Le duo parfait pour des cheveux transformés — shampoing + après-shampoing en une seule offre imbattable.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera stabilisé, huile de jojoba pure, protéines de soie, kératine végétale, panthénol (pro-vitamine B5).</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Nettoyage doux et profond, hydratation intense du cuir chevelu, démêlage facile, brillance naturelle et cheveux fortifiés dès les premières utilisations. Idéal pour les cheveux secs, abîmés ou traités chimiquement.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer le shampoing sur cheveux mouillés, masser et rincer. Suivre avec le conditioner sur les longueurs, laisser poser 2 à 3 minutes puis rincer. À utiliser 2 à 3 fois par semaine.</p>
+          <p><strong>Deux produits, une révolution capillaire — le Pack Jojoba, l'investissement beauté qui change vraiment les choses.</strong></p>
+          <a href="Contact.html?produit=Pack%20Jojoba%20-%20560%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          peaches: `
+      <div class="modal-layout">
+        <img src="Products/aloe vera peaches.png" alt="Aloe Vera Gel Peaches" />
+        <div class="modal-text">
+          <h2>🍑 Aloe Vera Gel Peaches</h2>
+          <p class="modal-tagline">Tous les bienfaits de l'Aloe Vera pur avec un délicieux goût pêche — la santé ne s'est jamais aussi bien bue.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Gel d'Aloe Vera stabilisé à 99,7%, arôme naturel de pêche, vitamine C, citrate de sodium — sans sucres ajoutés ni conservateurs artificiels.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Améliore la digestion, détoxifie l'organisme, renforce l'immunité, booste l'énergie et améliore la qualité de la peau de l'intérieur. Le goût pêche le rend idéal pour toute la famille, même les enfants.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>60ml chaque matin à jeun, 20 minutes avant le petit-déjeuner. Bien agiter avant utilisation. Résultats visibles dès 3 à 4 semaines.</p>
+          <p><strong>Même formule révolutionnaire, nouveau plaisir gustatif — l'Aloe Vera Gel Peaches, la santé qui se savoure.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Vera%20Gel%20Peaches%20-%20425%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          herbaltea: `
+      <div class="modal-layout">
+        <img src="Products/Herbal tea.jpg" alt="Herbal Tea" />
+        <div class="modal-text">
+          <h2>🍵 Forever Herbal Tea</h2>
+          <p class="modal-tagline">La pause bien-être que votre corps attendait — purifiez, détendez et revitalisez-vous naturellement.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Mélange de plantes naturelles : cassia, chicorée, cardamome, réglisse, gingembre et extraits botaniques purifiants.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Facilite la digestion, réduit les ballonnements, purifie le foie et les reins, aide à la gestion du poids, apaise le système nerveux et favorise un sommeil de qualité.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Infuser un sachet dans 250ml d'eau chaude (pas bouillante) pendant 3 à 5 minutes. Consommer 1 à 2 tasses par jour, de préférence après les repas.</p>
+          <p><strong>Une tasse par jour, et votre corps vous dira merci — Forever Herbal Tea, le rituel bien-être à adopter absolument.</strong></p>
+          <a href="Contact.html?produit=Herbal%20Tea%20-%20296%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          cooling: `
+      <div class="modal-layout">
+        <img src="Products/Aloe cooling lotion.jpg" alt="Aloe Cooling Lotion" />
+        <div class="modal-text">
+          <h2>❄️ Aloe Cooling Lotion</h2>
+          <p class="modal-tagline">La fraîcheur instantanée pour une peau apaisée — comme une bouffée d'air pur sur votre peau.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera pur, menthe poivrée, camphre naturel, agents rafraîchissants et hydratants.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Soulage immédiatement les sensations de chaleur, les coups de soleil et les irritations cutanées. Hydrate en profondeur, réduit les rougeurs et laisse une sensation de fraîcheur durable. Parfaite après le sport ou les longues journées au soleil.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer généreusement sur la peau propre et masser délicatement jusqu'à absorption. Utiliser matin et soir ou après une exposition au soleil. Peut être conservée au réfrigérateur pour une fraîcheur maximale.</p>
+          <p><strong>Quand la peau crie au secours, l'Aloe Cooling Lotion répond — le soin fraîcheur incontournable de l'été.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Cooling%20Lotion%20-%20190%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          propolis: `
+      <div class="modal-layout">
+        <img src="Products/Aloe propolis creme.webp" alt="Aloe Propolis Crème" />
+        <div class="modal-text">
+          <h2>🍯 Aloe Propolis Crème</h2>
+          <p class="modal-tagline">La crème réparatrice ultime — le pouvoir combiné de l'Aloe et de la propolis pour une peau parfaite.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera stabilisé, propolis naturelle, camomille, vitamine A, vitamine E, huile de germe de blé.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Répare et régénère la peau abîmée, combat l'acné et les imperfections grâce aux propriétés antibactériennes de la propolis, hydrate intensément, unifie le teint et réduit les cicatrices. Convient aux peaux problématiques et sensibles.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer une petite quantité sur peau propre matin et soir. Masser délicatement jusqu'à absorption. Pour les imperfections, appliquer localement en couche plus épaisse le soir.</p>
+          <p><strong>Votre peau mérite d'être réparée, pas cachée — l'Aloe Propolis Crème, le secret d'une peau nette et éclatante.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Propolis%20Cr%C3%A8me%20-%20322%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          liquidsoap: `
+      <div class="modal-layout">
+        <img src="Products/Aloe liquid soap.png" alt="Aloe Liquid Soap" />
+        <div class="modal-text">
+          <h2>🧴 Aloe Liquid Soap</h2>
+          <p class="modal-tagline">Un nettoyage en douceur qui respecte votre peau — parce que se laver les mains peut aussi être un soin.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera pur, tensioactifs doux d'origine végétale, extraits botaniques apaisants, sans parabènes ni colorants artificiels.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Nettoie efficacement sans décaper la peau, maintient l'hydratation naturelle, apaise les peaux sensibles et irritées. Idéal pour toute la famille, y compris les enfants. Peut être utilisé sur le visage, les mains et le corps.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer une petite quantité sur peau humide, masser en mouvements circulaires puis rincer à l'eau tiède. Utiliser quotidiennement pour les mains et le corps.</p>
+          <p><strong>Le geste le plus simple peut devenir le plus bénéfique — l'Aloe Liquid Soap, le nettoyant qui prend soin de vous.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Liquid%20Soap%20-%20255%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          gentleman: `
+      <div class="modal-layout">
+        <img src="Products/Aloe gentle man's pride.webp" alt="Gentleman's Pride" />
+        <div class="modal-text">
+          <h2>🧔 Gentleman's Pride®</h2>
+          <p class="modal-tagline">Le soin masculin d'exception — parce que les hommes méritent aussi le meilleur pour leur peau.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera stabilisé, huile d'argan, vitamine E, agents hydratants et apaisants, fragrance naturelle masculine.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Apaise les irritations post-rasage, hydrate et adoucit la peau du visage, réduit les rougeurs et les brûlures de rasoir, protège contre le dessèchement et laisse la peau fraîche et confortable toute la journée.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer après le rasage sur peau propre et légèrement humide. Masser délicatement jusqu'à absorption complète. Peut également être utilisé comme hydratant quotidien pour le visage.</p>
+          <p><strong>Un homme qui prend soin de lui, c'est un homme qui s'impose — Gentleman's Pride®, le soin de l'homme moderne.</strong></p>
+          <a href="Contact.html?produit=Gentleman's%20Pride%20-%20242%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          aloefirst: `
+      <div class="modal-layout">
+        <img src="Products/aloe first.avif" alt="Aloe First" />
+        <div class="modal-text">
+          <h2>🩹 Aloe First</h2>
+          <p class="modal-tagline">Le premier geste en cas d'urgence — votre pharmacie naturelle en spray.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera stabilisé à haute concentration, propolis naturelle, camomille, agents cicatrisants botaniques.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Soulage instantanément les brûlures légères, coupures, piqûres d'insectes, coups de soleil et irritations cutanées. Accélère la cicatrisation naturelle, protège la peau contre les infections et réduit l'inflammation.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Vaporiser directement sur la zone concernée de 15 à 20 cm de distance. Laisser sécher naturellement. Répéter 2 à 3 fois par jour selon les besoins. Peut être utilisé sur le visage et le corps.</p>
+          <p><strong>Ayez toujours Aloe First à portée de main — car les imprévus n'attendent pas et votre peau non plus.</strong></p>
+          <a href="Contact.html?produit=Aloe%20First%20-%20322%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          lips: `
+      <div class="modal-layout">
+        <img src="Products/aloe lips.webp" alt="Forever Aloe Lips" />
+        <div class="modal-text">
+          <h2>💋 Forever Aloe Lips</h2>
+          <p class="modal-tagline">Des lèvres douces, hydratées et protégées toute la journée — le petit soin qui fait toute la différence.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera pur, beurre de karité, vitamine E, cire d'abeille naturelle, huile de jojoba.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Hydrate et nourrit les lèvres gercées ou sèches, les protège du froid, du vent et du soleil, accélère la guérison des lèvres abîmées et laisse une sensation de douceur et de confort immédiate.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer sur les lèvres aussi souvent que nécessaire tout au long de la journée. Idéal avant de dormir pour une réparation nocturne intensive. Convient à toute la famille.</p>
+          <p><strong>Le plus petit produit, le plus grand impact — Forever Aloe Lips, parce que des lèvres parfaites ça se mérite.</strong></p>
+          <a href="Contact.html?produit=Forever%20Aloe%20Lips%20-%2057%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          sunscreen: `
+      <div class="modal-layout">
+        <img src="Products/Aloe Sunscreen.jpg" alt="Aloe Sunscreen" />
+        <div class="modal-text">
+          <h2>☀️ Aloe Sunscreen</h2>
+          <p class="modal-tagline">Profitez du soleil en toute sérénité — votre bouclier naturel contre les rayons UV.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera stabilisé, filtres solaires minéraux naturels, vitamine E, agents hydratants botaniques.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Protège efficacement contre les rayons UVA et UVB, hydrate la peau pendant l'exposition, prévient les coups de soleil, le vieillissement prématuré et les taches pigmentaires. Formule légère, non grasse et agréable à porter.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer généreusement 20 minutes avant l'exposition solaire. Renouveler l'application toutes les 2 heures et après chaque baignade. Utiliser sur visage et corps.</p>
+          <p><strong>Le soleil, c'est la vie — mais avec l'Aloe Sunscreen, profitez-en sans jamais compromettre votre peau.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Sunscreen%20-%20273%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          bodywash: `
+      <div class="modal-layout">
+        <img src="Products/Aloe Body Wash.jpg" alt="Aloe Body Wash" />
+        <div class="modal-text">
+          <h2>🚿 Aloe Body Wash</h2>
+          <p class="modal-tagline">Transformez votre douche en véritable soin — chaque jour, une peau plus douce et plus lumineuse.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera pur, tensioactifs doux végétaux, extraits de plantes nourrissants, vitamine E, fragrance naturelle apaisante.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Nettoie en profondeur tout en hydratant, élimine les impuretés sans dessécher, nourrit et adoucit la peau dès le premier lavage, laisse un parfum frais et délicat. Convient à tous les types de peau.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer sur peau humide, masser doucement sur tout le corps pour former une mousse légère puis rincer abondamment. Utiliser quotidiennement sous la douche.</p>
+          <p><strong>Une douche qui prend soin de vous — l'Aloe Body Wash, parce que votre peau mérite un soin à chaque lavage.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Body%20Wash%20-%20296%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          activator: `
+      <div class="modal-layout">
+        <img src="Products/Aloe Activator.jpg" alt="Aloe Activator" />
+        <div class="modal-text">
+          <h2>💧 Aloe Activator</h2>
+          <p class="modal-tagline">Le concentré d'Aloe Vera pur qui active, régénère et transforme votre peau en profondeur.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera liquide stabilisé à très haute concentration, sans alcool, sans parfum, sans colorants — pureté maximale.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Hydrate et régénère la peau en profondeur, active la production de collagène naturel, accélère la cicatrisation, réduit les irritations et peut être utilisé comme lotion tonique, masque ou booster sous votre soin habituel.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Appliquer sur peau propre avec un coton ou vaporiser directement. Laisser pénétrer avant d'appliquer votre crème habituelle. Peut également être mélangé à vos soins pour décupler leur efficacité.</p>
+          <p><strong>Le secret de toutes les peaux parfaites — l'Aloe Activator, la base incontournable d'une routine beauté efficace.</strong></p>
+          <a href="Contact.html?produit=Aloe%20Activator%20-%20209%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          toner: `
+      <div class="modal-layout">
+        <img src="Products/Balancing Toner.jpg" alt="Balancing Toner" />
+        <div class="modal-text">
+          <h2>✨ Balancing Toner</h2>
+          <p class="modal-tagline">L'étape que votre routine skincare manquait — pour une peau équilibrée, purifiée et prête à recevoir vos soins.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Aloe Vera, hamamélis, acide hyaluronique, niacinamide, extraits floraux équilibrants, sans alcool.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Resserre les pores, équilibre le pH naturel de la peau, réduit l'excès de sébum, hydrate sans alourdir, prépare la peau à mieux absorber les actifs de vos soins suivants. Idéal pour les peaux mixtes à grasses.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Après le nettoyage, appliquer sur un coton et tamponner délicatement sur tout le visage et le cou en évitant le contour des yeux. Suivre avec votre sérum et/ou crème habituelle. Utiliser matin et soir.</p>
+          <p><strong>Une bonne routine commence par une bonne base — le Balancing Toner, l'essentiel que votre peau attendait.</strong></p>
+          <a href="Contact.html?produit=Balancing%20Toner%20-%20286%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          litultra: `
+      <div class="modal-layout">
+        <img src="Products/Forever Lite Ultra.jpg" alt="Forever Lite Ultra" />
+        <div class="modal-text">
+          <h2>💪 Forever Lite Ultra</h2>
+          <p class="modal-tagline">Contrôlez votre poids sans sacrifier votre énergie ni votre plaisir — la nutrition intelligente à votre service.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Protéines de soja et de lactosérum, vitamines et minéraux essentiels, fibres naturelles, fructose naturel — disponible en chocolat et vanille.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Soutient la perte de poids saine, remplace un repas tout en apportant tous les nutriments essentiels, maintient la masse musculaire, réduit les fringales et booste l'énergie sans stimulants artificiels.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>Mélanger 2 mesures (environ 60g) dans 250ml d'eau fraîche ou de lait végétal. Consommer en remplacement d'un ou deux repas par jour. Agiter ou mixer jusqu'à obtenir une texture lisse et crémeuse.</p>
+          <p><strong>Atteindre votre objectif poids sans vous affamer — Forever Lite Ultra, la solution minceur qui vous ressemble.</strong></p>
+          <a href="Contact.html?produit=Forever%20Lite%20Ultra%20-%20344%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+
+          therm: `
+      <div class="modal-layout">
+        <img src="Products/Forever Therm.jpg" alt="Forever Therm" />
+        <div class="modal-text">
+          <h2>🔥 Forever Therm</h2>
+          <p class="modal-tagline">Activez votre métabolisme, brûlez plus, bougez mieux — votre allié minceur naturel et puissant.</p>
+          <h4>🌿 Ingrédients</h4>
+          <p>Extrait de thé vert (EGCG), caféine naturelle, extrait de guarana, vitamines B (B6, B12), chrome, extraits botaniques thermogéniques.</p>
+          <h4>💚 Bienfaits</h4>
+          <p>Accélère naturellement le métabolisme, favorise la combustion des graisses stockées, augmente l'endurance physique, réduit la fatigue, améliore la concentration et soutient la gestion du poids sur le long terme.</p>
+          <h4>✨ Comment l'utiliser</h4>
+          <p>1 comprimé le matin et 1 comprimé à midi avec un grand verre d'eau, de préférence avant les repas. Ne pas dépasser 2 comprimés par jour. À associer avec une alimentation équilibrée et une activité physique régulière.</p>
+          <p><strong>Votre corps a le potentiel de se transformer — Forever Therm allume l'étincelle et vous aide à aller au bout de vos objectifs.</strong></p>
+          <a href="Contact.html?produit=Forever%20Therm%20-%20488%20DH" class="btn-commander">🛒 Commander maintenant</a>
+        </div>
+      </div>`,
+        };
+
+        document.getElementById("modalData").innerHTML =
+          data[product] || "<p>Informations bientôt disponibles.</p>";
+        document.getElementById("productModal").style.display = "flex";
+      }
+
+      function closeModal() {
+        document.getElementById("productModal").style.display = "none";
+      }
+
+      window.onclick = function (e) {
+        if (e.target == document.getElementById("productModal")) {
+          closeModal();
+        }
+      };
+    </script>
+  </body>
+</html>
