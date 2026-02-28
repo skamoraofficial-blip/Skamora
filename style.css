@@ -1738,3 +1738,11 @@ header {
     gap: 0;
   }
 }
+
+.cart-icon-btn svg {
+  width: 26px !important;
+  height: 26px !important;
+  stroke: white !important;
+  stroke-width: 2 !important;
+  fill: none !important;
+}
