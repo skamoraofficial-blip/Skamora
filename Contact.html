@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" href="pics/FavIconee.png" />
+    <link rel="shortcut icon" href="pics/FavIconee.png" type="image/x-icon" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -30,7 +30,7 @@
     <header>
       <div class="top-bar">
         <p>
-          Livraison rapide partout au Maroc et gratuite à Fès. 🚚
+          🚚 Livraison GRATUITE à Fès • 25 DH dans les autres villes du Maroc
         </p>
       </div>
       <nav class="navbar">
@@ -94,7 +94,7 @@
               <div class="info-icon">🚚</div>
               <div>
                 <strong>Livraison</strong>
-                <span>GLivraison rapide partout au Maroc et gratuite à Fès. 🚚</span>
+                <span>Gratuite à Fès • 25 DH ailleurs au Maroc</span>
               </div>
             </div>
 
@@ -525,20 +525,29 @@
         }
       });
     </script>
+
     <script>
       const params = new URLSearchParams(window.location.search);
+      const panier = params.get("panier");
       const produit = params.get("produit");
-      if (produit) {
+
+      if (panier) {
+        const msgField = document.getElementById("message");
+        if (msgField) msgField.value = "Récapitulatif panier :\n" + decodeURIComponent(panier).replace(/ \| /g, "\n");
         const select = document.getElementById("produits");
-        for (let option of select.options) {
-          if (option.value === produit) {
-            option.selected = true;
-            break;
+        if (select) {
+          for (let opt of select.options) {
+            if (opt.value === "Plusieurs produits (voir message)") { opt.selected = true; break; }
+          }
+        }
+      } else if (produit) {
+        const select = document.getElementById("produits");
+        if (select) {
+          for (let opt of select.options) {
+            if (opt.value === decodeURIComponent(produit)) { opt.selected = true; break; }
           }
         }
       }
     </script>
   </body>
 </html>
-
-
