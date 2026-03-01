@@ -47,6 +47,12 @@
             <li><a href="Boutique.html">Boutique</a></li>
             <li><a href="À propos.html">À propos</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li>
+  <button onclick="openCart()" style="background:none;border:none;cursor:pointer;color:white;font-size:22px;display:flex;align-items:center;gap:6px;">
+    🛒
+    <span id="cartBadgeNav" style="display:none;background:white;color:#22c55e;border-radius:50px;padding:1px 8px;font-size:12px;font-weight:700;">0</span>
+  </button>
+</li>
           </ul>
         </div>
       </nav>
@@ -548,6 +554,12 @@
           }
         }
       }
+      <script>
+  function openCart() {
+    window.location.href = 'Boutique.html';
+  }
+</script>
     </script>
   </body>
 </html>
+
